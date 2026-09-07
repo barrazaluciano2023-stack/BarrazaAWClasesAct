@@ -1,0 +1,17 @@
+Comandos Node 
+
+cd "nombre carpeta para entrar / cd.. para salir"
+
+1º instalar node JS estable LTS 
+-Verificar si se instalo con -->:  node -v
+-Verificar version de npm-->:     npm -v
+-instalar npm(en el aula siempre, en casa una vez): -->     npm i -g pnpm 
+
+ EN cada proyecto:
+- Inicializar proyecto en la ruta que quiero  el desarrollo--> pn init
+(esto crea el documento package.json)
+
+instalar un paquete
+- pn add five-server
+
+new file .gitignore en la raiz para archivos que no quiero que se suban 

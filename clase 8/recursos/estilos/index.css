@@ -1,0 +1,21 @@
+/*
+sintaxis css
+regla o rule
+
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+
+}
+
+SELECTORES DE TIPO
+
+
+*/
+
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
