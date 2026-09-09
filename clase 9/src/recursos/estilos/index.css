@@ -1,0 +1,61 @@
+/*
+sintaxis css
+regla o rule
+
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+
+}
+
+SELECTORES DE TIPO
+
+
+*/
+
+body{
+    background-color: rgb(155, 173, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(214, 216, 214);
+}
+a{ 
+    color:black;
+    text-decoration: none;
+}
+/* Selectores de clase */
+/*
+.vinculos{
+    color: red;
+}
+*/
+
+/*selector universal*/
+
+
+
+.vinculos a{
+        
+}
+.encabezado-principal{
+        background-color: rgb(233, 233, 243);
+}
+
+.contenido-principal{
+        background-color: rgb(13, 150, 131);        
+}
+.pie-principal{
+        background-color: rgb(233, 233, 243);
+        
+}
+/* selector ID
+#contactos{
+    background-color: rgb(89, 231, 23);
+}*/
+
+/*
+selector atributo 
+*/
