@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+     <section>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </section>
+    <h1>Formulario de Contacto</h1>
+    <p>Si deseas más información o agendar una cita, por favor completa el siguiente formulario de contacto y me pondré en contacto contigo a la brevedad.</p>
+    <form >
+        <label type="text">Nombre:</label>
+        <br>
+        <input type="text" name="nombre" required>
+        <br><br>
+        <label type="email">Correo electrónico: </label> 
+        <br>
+        <input type="email" name="correo" required>    
+        <br><br>
+        <label >Telefono:</label>
+        <br>
+        <input type="tel" name="telefono">
+        <br><br>
+        <label >Mensaje:</label>
+        <br>
+        <textarea name="mensaje" required></textarea>
+        <br><br>
+        <label >Motivo de consulta:</label>
+        <br>
+        <select name="motivo" required>
+            <option value="">Seleccione una opción</option>
+            <option value="terapia_individual">Terapia individual</option>
+            <option value="terapia_pareja">Terapia de pareja</option>
+            <option value="asesoria_familiar">Asesoría familiar</option>
+            <option value="talleres_bienestar">Talleres de bienestar emocional</option>
+            <option value="orientacion_vocacional">Orientación vocacional</option>
+        </select>
+        <br><br> 
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

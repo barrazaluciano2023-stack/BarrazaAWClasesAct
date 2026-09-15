@@ -1,0 +1,61 @@
+/*Modelo de caja */
+*{    
+    box-sizing: border-box;
+
+}
+
+/* UNIVERSAL*/ 
+/* Genericos*/ 
+
+
+/* Reset*/
+html,body, h1, h2 , h3, ul{
+    padding: 0%;
+    margin: 0%;
+    /* sacamos rellenos a esos elementos indicados y si quiero que solo 1 sea distinto
+    hago una clase para ese elemento*/
+}
+    /* Tipo*/
+body{
+    background-color: aqua;
+}
+a{
+    color:rgb(116, 115, 115);
+    text-decoration: none;
+}
+
+/* Clase  (las uso en el header,main y footer)*/
+.cabecera-principal {
+    background-color: bisque;
+    /*Espacio interno     me lee las medidad en sentido reloj por 
+    si quiero aplicar paddin a los costados*/
+    padding: 5px 10px 20px 10px;
+    border-bottom: 2px solid #222;
+    width: 100% ;
+    height: 80px;
+}
+/* uso convinado */
+.cabecera-principal  nav {
+    background-color: gray;
+}
+
+/* ----------------------------------------------------*/
+.contenido-principal {
+    padding: 10px 20px;/*  cuando pongo dos asi es uno arriba y abaho y otro a los costados*/
+}
+.contenido-principal form   {
+
+    width: 500px;
+}
+.contenido-principal form input  {
+    display: block;
+    width: 100%;
+}
+
+/* ----------------------------------------------------*/
+.pie-principal {
+    background-color: bisque;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
