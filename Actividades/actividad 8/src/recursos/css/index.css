@@ -2,57 +2,42 @@
     font-family: 'Sora';
     src: url(./fuentes/Sora-Regular.ttf);
 }
-html{
-    font-family: 'Sora', sans-serif; 
-}
- 
 
-.logo-pagina{
+html {
+    font-family: 'Sora', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* LOGO */
+
+.logo-pagina {
     position: absolute;
     left: 20px;
     width: 200px;
-    
-}
-.contenedor {
-    display: flex;
-    gap: 20px; /* Espacio de separación entre los articles */
-    gap: 25px;
-    padding: 20px;
-}
-.h1-titulo{
-    color: #ef4141;
 }
 
-.h2-subtitulo{
-    text-align: center;
-    margin-top: 0; /* Elimina el margen superior */
-}
+/* HEADER */
 
-
-
-
-.contenedor article {
-    flex: 1; /* Hace que todos ocupen el mismo ancho */
-    background: #f0f0f0;
-    padding: 20px;
-    
-}
-.logo-cabaña{
-    width: 100%;
-    height: 200px;
-    object-fit: cover; /*para que la imagen cubra la targeta*/
-}
-
-.cabecera-principal{
-  position: relative;
+.cabecera-principal {
+    position: relative;
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;
-    padding: 20px;
-    
-   
+    padding: 40px 20px;
 }
- 
+
+/* TÍTULO PRINCIPAL */
+
+.h1-titulo {
+    color: #ef4141;
+    text-align: center;
+}
+
+/* MENÚ */
+
 .cabecera-principal ul {
     list-style: none; /* Elimina los puntos de la lista */
     padding: 0;
@@ -71,13 +56,84 @@ html{
     color: #000;
 }
 
+/* CONTENIDO PRINCIPAL */
 
-.contenido-principal{
+.contenido-principal {
     background-color: rgb(206, 234, 250);
-    padding-top: 20px; /* Espacio superior */
-    padding-bottom: 20px; /* Espacio inferior */
+    padding-top: 30px; /* Espacio superior */
+    padding-bottom: 30px; /* Espacio inferior */
+    min-height: 600px; /* Altura mínima del main */
 }
 
-.pie-principal{
-    margin-top: 30px;
+/* PÁGINA PRINCIPAL */
+
+.h2-subtitulo {
+    text-align: center;
+    margin-top: 0; /* saca el margen superior */
+}
+
+.parrafo-alquiler {
+    text-align: center;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* TARJETAS DE CABAÑAS */
+
+.contenedor {
+    display: flex;
+    gap: 25px; /* Espacio de separación entre los articles */
+    padding: 20px;
+}
+
+.contenedor article {
+    flex: 1; /* Hace que todos ocupen el mismo ancho */
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.logo-cabaña {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Hace que la imagen cubra la tarjeta */
+}
+article h3 {
+    text-align: center;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* RESERVAS */
+
+h1.h1-reserva {
+    text-align: center;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+h4.h4-reserva {
+    text-align: center;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* FORMULARIO DE RESERVAS */
+
+.formulario-reserva {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    gap: 30px; /* Espacio entre los elementos del formulario */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+.boton {
+    background-color: #ef4141;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+/* FOOTER */
+
+.pie-principal {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20;
 }

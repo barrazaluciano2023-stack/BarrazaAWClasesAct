@@ -3,25 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retiro Sustentable - Reservas</title>
+    <title>Reservas</title>
+    <link rel="stylesheet" href="./recursos/css/index.css">
 </head>
 <body>
-    <div>
-        <nav>
-            
-        </nav>
-    </div>
-    <main>
-        <h1>Reservas</h1>
-        <h4>Contactanos</h4>
-       <form>
-        <label for="">
-            <input type="text" name="" id="">
-        </label>
-       </form>
+    <header class="cabecera-principal">
+        <div>
+            <img src="./recursos/imagenes/logo-rs.svg" alt="" class="logo-pagina">
+            <h1 class="h1-titulo">Retiro Sustentable</h1> 
+            <nav>
+                <ul>
+                    <li>
+                    <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                    <a href="reservas.html">Reservas</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contenido-principal">
+        <div>
+            <h1 class="h1-reserva">Reservas</h1>
+            <h4 class="h4-reserva">Contactanos</h4>
+            <form class="formulario-reserva"  method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+                <button class="boton"type="submit">Enviar</button>
+            </form>
+        </div>
     </main>
-    <div>
-        <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
-    </div>
+    <footer class="pie-principal">
+        <div>
+            <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
